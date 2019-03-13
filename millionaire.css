@@ -1,0 +1,134 @@
+.w3-blue, .w3-red{
+  height: 20px;
+  width: 100%;
+  -webkit-box-shadow: 0 9px 6px -6px black;
+  border-radius: 4px;
+}
+.w3-container{
+  width: 500px;
+}
+
+#border, #blueborder {
+  border: none !important;
+}
+#percent, #cash, #winmsg{
+  margin: 0;
+  padding: 0;
+}
+#cash{
+  font-size: 30px;
+  width: 270px;
+  margin: auto;
+}
+.bars, p, h3{
+  text-align: center;
+}
+.bars{
+  float: right;
+  -webkit-box-shadow: 0 9px 2px -6px black;
+  border: 1px solid black;
+  width: 500px;
+  height: 150px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+.alerts{
+  float: left;
+  border: 1px solid black;
+  width: 500px;
+  height: 150px;
+  -webkit-box-shadow: 0 9px 2px -6px black;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+h2{
+  text-decoration: underline;
+  color: blue;
+}
+button{
+  background-color: #007FFF; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-box-shadow: 0 9px 6px -6px black;
+  border-radius: 8px;
+}
+button, img{
+  margin: auto;
+  display: block;
+}
+#hitme, #stay{
+  padding: 1px 2px;
+  margin: auto;
+}
+img{
+  height: 100px
+  width: 150px;
+}
+.energypercent{
+  text-align: center;
+}
+#alertmessage, #casino{
+  color: red;
+  text-align: center;
+}
+table {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+#character{
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: 48px;
+  left: 0px;
+  visibility: visible;
+}
+
+#imagediv{
+  position: relative;
+  border: 2px solid black;
+  background-image: url('newestcity.png');
+  background-repeat: repeat;
+  margin: auto;
+  height: 700px;
+  background-size: cover;
+  width: 1000px;
+}
+#hospitalbtn, #foodbtn, #shackbtn, #pondbtn, #manshbtn, #housebtn, #beggarbtn, #gardenbtn, #dinerbtn, #buyhousebtn, #applyjobbtn{
+  position: absolute;
+  left: 30px;
+  top: 300px;
+  visibility: hidden;
+}
+#loanbtn, #gamblebtn{
+  position: absolute;
+  left: 30px;
+  top: 240px;
+  visibility: hidden;
+}
+#investbtn, #jackbtn{
+  position: absolute;
+  left: 20px;
+  top: 500px;
+  visibility: hidden;
+}
+
+#information{
+  position: absolute;
+  right: 0px;
+  top: 300px;
+  height: 400px;
+  width: 300px;
+  background-repeat: no-repeat;
+  background-image: url('book.png');
+}

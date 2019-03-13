@@ -1,0 +1,102 @@
+#box {
+  border: 3px solid black;
+  width: 1500px;
+  height: 800px;
+  padding: 15px;
+  margin: 10px;
+}
+
+#image {
+  position: absolute;
+}
+
+.w3-blue{
+  height: 20px;
+  width: 100%;
+  /*-webkit-box-shadow: 0 9px 6px -6px black;*/
+}
+.w3-yellow{
+  height: 20px;
+  width: 0%;
+}
+.w3-red{
+  height: 20px;
+  width: 100%;
+  /*-webkit-box-shadow: 0 9px 6px -6px black;*/
+}
+.w3-container{
+    width: 500px;
+}
+#percent, #cash, #winmsg{
+  margin: 0;
+  padding: 0;
+}
+#cash{
+  font-size: 30px;
+}
+.investments, p, h3{
+  text-align: center;
+}
+.investments{
+  -webkit-box-shadow: 0 9px 2px -6px black;
+  border: 1px solid black;
+  width: 500px;
+  height: 170px;
+  float: top;
+  margin: 10px;
+  display: inline-block;
+}
+.alerts{
+  border: 1px solid black;
+  width: 500px;
+  height: 150px;
+  -webkit-box-shadow: 0 9px 2px -6px black;
+  float: left;
+  margin: 10px;
+  padding:10px;
+}
+h2{
+  text-decoration: underline;
+  color: blue;
+}
+button{
+  background-color: #007FFF; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  -webkit-box-shadow: 0 9px 6px -6px black;
+}
+button, img{
+  margin: auto;
+  display: block;
+}
+#hitme, #stay{
+  padding: 1px 2px;
+  margin: auto;
+}
+img{
+  height: 100px
+  width: 150px;
+}
+.energypercent{
+  text-align: center;
+}
+#alertmessage, #casino{
+  color: red;
+  text-align: center;
+}
+table {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+#character{
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  right: 0;
+  bottom: 0;
+}
